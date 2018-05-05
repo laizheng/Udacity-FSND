@@ -1,0 +1,56 @@
+header {
+  border-bottom: 0.2em solid black;
+  margin-bottom: 1em;
+}
+
+.header_img {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  width: 70px;
+  height: auto;
+}
+
+.text-100 {
+  font-weight: 100;
+}
+
+.text-raleway {
+  font-family: 'Raleway', sans-serif;
+}
+
+.text-400 {
+  font-weight: 400;
+}
+
+.text-grey {
+  color: grey;
+}
+
+.work_img_title {
+  font-size: 2em;
+  margin-bottom: -0.1em;
+}
+
+@media (max-width: 500px) {
+    h1 {
+      font-size: 22px;
+    }
+    h3 {
+      font-size: 20px;
+    }
+    .header_img {
+      width: 60px;
+    }
+}
+
+@media (max-width: 300px) {
+    h1 {
+      font-size: 18px;
+    }
+    h3 {
+      font-size: 16px;
+    }
+    .header_img {
+      width: 50px;
+    }
+}
