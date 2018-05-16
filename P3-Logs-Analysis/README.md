@@ -9,9 +9,9 @@ A python script run the sql scripts and return answers for 3 questions:
 For code readability, 3 views are created for question 3.
 However, all the views created are temporary. They are created by python codes. Therefore every time you run the script, the temporary views will be created automatically.
 Views:
-failure - date and number of failed requests for each date
-success - date and number of successful requests for each date;
-failure_rate - date and failure rate for each date;
+1. "failure" - date and number of failed requests for each date.
+2. "success" - date and number of successful requests for each date.
+3. "failure_rate" - date and failure rate for each date.
 
 ## Requirement
 1. Computer (Mac or Windows OS)
