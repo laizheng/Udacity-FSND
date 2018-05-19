@@ -16,10 +16,26 @@ Views:
 ## Requirement
 1. Computer (Mac or Windows OS)
 2. Python 3.6.1 or above
-3. Knowledge of command line
+3. Vagrant(2.1.1) and virtualbox(5.1.16) installed
+4. Knowledge of command line
 
 ## Instruction
 1. Open a terminal
 2. Change to the project directory that contains python scripts.
 3. Type "python main.py" in the terminal and the answers to the 3 questions should be displayed automatically to the terminal.
 4. Enjoy!
+
+## Results of Analysis
+1. What are the most popular three articles of all time?
+Candidate is jerk, alleges rival -- 338647
+Bears love berries, alleges bear -- 253801
+Bad things gone, say good people -- 170098
+
+2. Who are the most popular article authors of all time?
+Ursula La Multa -- 507594
+Rudolf von Treppenwitz -- 423457
+Anonymous Contributor -- 170098
+Markoff Chaney -- 84557
+
+3. On which days did more than 1% of requests lead to errors?
+2016-07-17 -- 2.32% errors
